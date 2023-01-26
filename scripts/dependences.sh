@@ -25,4 +25,4 @@ curl -fsSL https://get.docker.com | sh
 
 usermod -aG docker jenkins
 
-systemct restart jenkins
+systemctl restart jenkins
