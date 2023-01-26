@@ -23,4 +23,6 @@ sudo apt-get install jenkins -y
 
 curl -fsSL https://get.docker.com | sh
 
-curl -fsSL https://get.docker.com | sh
+usermod -aG docker jenkins
+
+systemct restart jenkins
